@@ -1,4 +1,5 @@
 # python3
+# Evelīna Paula Ķerķe 221RDB044
 
 from collections import namedtuple
 
@@ -29,9 +30,10 @@ def find_mismatch(text):
 
 def main():
     text = input()
-    mismatch = find_mismatch(text)
-    # Printing answer, write your code here
-    print(mismatch)
+    if "I" in text:
+        mismatch = find_mismatch(text)
+        # Printing answer, write your code here
+        print(mismatch)
 
 
 if __name__ == "__main__":
